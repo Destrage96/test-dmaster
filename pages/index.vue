@@ -53,6 +53,8 @@
       <template slot-scope="{row}" slot="registered">
         <span v-if="readonly">{{$_onChangeDate(row.registered)}}</span>
         <DatePicker type="date"
+                    :value="unixTimeToString(row.registered)"
+                    @on-change="$_onChangeDate(row.registered)"
                     v-model="row.registered"
                     v-else
                     :editable="false"
@@ -190,7 +192,6 @@
       },
 
       $_onChangeDate(q) {
-        console.log(typeof q === "number", 'sdfagag')
         if(typeof q === "number") {
           return this.unixTimeToString(q)
         } else {
