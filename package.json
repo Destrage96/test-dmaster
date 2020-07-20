@@ -19,7 +19,7 @@
     "@fortawesome/vue-fontawesome": "^0.1.9",
     "@nuxtjs/axios": "^5.9.7",
     "concurrently": "^5.1.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "@nuxtjs/moment": "^1.6.0",
     "nuxt": "^2.0.0",
     "iview": "^3.1.5",
