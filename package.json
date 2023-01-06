@@ -21,7 +21,7 @@
     "concurrently": "^5.1.0",
     "lodash": "^4.17.15",
     "@nuxtjs/moment": "^1.6.0",
-    "nuxt": "^2.0.0",
+    "nuxt": "^2.15.8",
     "iview": "^3.1.5",
     "view-design": "^4.2.0"
   },
